@@ -1,8 +1,8 @@
 diff --git a/Common/sources/constants.js b/Common/sources/constants.js
-index 4fc0d807..bb703933 100644
+index 9e4f1adb..271cef95 100644
 --- a/Common/sources/constants.js
 +++ b/Common/sources/constants.js
-@@ -87,8 +87,8 @@ exports.LICENSE_RESULT = {
+@@ -88,8 +88,8 @@ exports.LICENSE_RESULT = {
    NotBefore: 16
  };
  
@@ -12,5 +12,4 @@ index 4fc0d807..bb703933 100644
 +exports.LICENSE_USERS = 99999;
  exports.LICENSE_EXPIRE_USERS_ONE_DAY = 24 * 60 * 60; // day in seconds
  
- exports.AVS_OFFICESTUDIO_FILE_UNKNOWN =  0x0000;
- 
+ exports.AVS_OFFICESTUDIO_FILE_UNKNOWN = 0x0000;
