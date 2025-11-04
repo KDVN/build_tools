@@ -30,4 +30,4 @@ ENV PATH="/opt/python3/bin:${PATH}"
 
 RUN ln -s /opt/python3/bin/python3.10 /usr/bin/python
 
-CMD ["sh", "-c", "cd tools/linux && python3 ./automate.py"]
+CMD ["sh", "-c", "cd tools/linux && python3 ./automate.py server"]
