@@ -118,8 +118,8 @@ def process_link_tags(text, root=''):
                 url = reserved_links[ref]
                 display_text = label if label else ref
                 return f"[{display_text}]({url})"
-            elif ref.startswith('/docs/plugins/'):
-                url = f"../../{ref.split(f'{lang_path}/docs/plugins/')[1]}.md"
+            elif ref.startswith('/docs/plugin-and-macros/'):
+                url = f"../../../../../{lang_path}{ref}.md"
                 display_text = label if label else ref
                 return f"[{display_text}]({url})"
             else:
